@@ -9,7 +9,7 @@ Se implementan tres tipos de empleados:
 - `EmpleadoPorHora`: Recibe un pago según las horas trabajadas.
 - `EmpleadoComision`: Recibe un pago según las ventas realizadas y un porcentaje de comisión.
 
-El polimorfismo ocurre cuando se crea un arreglo de tipo `Empleado` y se almacenan instancias de diferentes clases que implementan la interfaz. Al recorrer el arreglo y llamar a los métodos, Java ejecuta el método correspondiente a la clase real del objeto.
+El polimorfismo ocurre cuando se crea un arreglo de tipo `IEmpleado` y se almacenan instancias de diferentes clases que implementan la interfaz. Al recorrer el arreglo y llamar a los métodos, Java ejecuta el método correspondiente a la clase real del objeto.
 
 ## Ventajas
 - Permite mayor flexibilidad y desacoplamiento.
